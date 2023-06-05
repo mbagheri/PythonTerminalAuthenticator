@@ -52,6 +52,7 @@ class Authenticator:
             if correct == "n":
                 repeat = True
             if correct == "x":
+                repeat = False
                 print("")
                 self.application()
 
@@ -77,6 +78,7 @@ class Authenticator:
                 if correct == "n":
                     repeat = True
                 if correct == "x":
+                    repeat = False
                     print("")
                     self.application()
 
